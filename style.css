@@ -115,6 +115,32 @@ hr {
   color: #c3c6ff;
 }
 
+.error-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 24px;
+}
+
+.brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.error-page h2 {
+  color: #8a8d94;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 0;
+  text-align: center;
+}
+
 @media (max-width: 480px) {
   .page {
     padding: 50px 18px 50px;
